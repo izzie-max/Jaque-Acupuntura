@@ -1,0 +1,211 @@
+
+@import url('https://fonts.googleapis.com/css2? family= Dancing+Script:wght@700 & display=swap'); /* titulos h1*/
+@import url('https://fonts.googleapis.com/css2? family= Hammersmith+One & display=swap'); /* titulos h2 secundarios e n° de sessões*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+.capas{
+    height: 700px;
+}
+
+.masthead{
+    background-size: cover;
+    min-height: 60vh;
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.808);
+}
+.newmassage{
+    background-size: cover;
+    min-height: 110vh;
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.808);
+}
+h1{
+    font-family: "Dancing Script", cursive;
+    font-size: 170px;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.color-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+#capa1{
+    height: 500px;
+}
+#capaM{
+    height: 900px;
+}
+#container {
+    display: block;
+    position: relative;
+  }
+  
+ #container figcaption {
+    position: absolute;
+    top: 100px;
+    right: 200px;
+    font-size: 40px;
+    align-items: center;
+    color: black;
+  }
+
+  #titulo{
+    text-align: center;
+   }
+
+h6{
+    font-family: 'Hammersmith One'; color: #D8065F;
+    font-size: 25px;
+    text-align: justify;
+    margin-left: 50px;
+}
+.mas6{
+    padding-bottom: 50px;
+}
+.icons{
+    padding-bottom: 30px;
+}
+.preços{
+    font-size: 20px; color: #000000;
+    padding-bottom: 50px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.274);
+}
+
+h2{
+    font-family: 'Hammersmith One';
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 60px;
+    text-align: center;
+    color: #5CAA4F;
+}
+
+h4{
+    font-family: 'Hammersmith One'; color: rgb(83, 10, 10);
+    font-size: 22px;
+    text-align: justify;
+    margin-left: 50px;
+}
+
+p{
+    font-family: 'Poppins';
+    font-size: 25px;
+    text-align: justify;
+    margin-left: 35px;
+    margin-right: 30px;
+}
+#rosa{
+    background-color: #A23737;
+    height: 400px; 
+    padding-top: 50px; 
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.808);  
+}
+.mensagem{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    padding-top: 55px;
+    font-size: 55px; color: aliceblue;
+    text-align: center;
+    }
+#amarelo{
+     background-color: #ED9C2E;
+     height: 250px;
+     color: white;
+    }
+#marrom{
+    background-color: #7B350A;
+    height: 300px;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+#casa{
+    text-align: center;
+}
+.final{
+    font-family: 'Dancing Script';
+    font-size: 40px;
+ padding-top: 70px;   
+}
+    
+@media (max-width: 970px) {
+
+    .masthead{
+        background-size: cover;
+        min-height: 30vh;
+        position: relative;
+        color: white;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.808);
+    }
+
+    .newmassage{
+        background-size: cover;
+        min-height: 55vh;
+        position: relative;
+        color: white;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.808);
+    }
+   
+    h1{
+        font-size: 80px;
+        text-align: center;
+        font-family: "Dancing Script", cursive; color: white;
+    }
+
+    h2{
+        font-size: 50px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    .mensagem{
+         font-size: 35px;
+    }
+
+    section{
+        width: 100%;
+        height: 200px;
+        font-size: 45px;
+    }
+
+    #rosa{
+        height: 200px;
+        background-color: #A23737;
+        padding-top: 0px; 
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.808);
+    }
+
+    .icons{
+        width: 150px;
+        height: 150px;
+    }
+
+    h6{
+        font-size: 20px;
+        text-align: justify;
+        margin-left: 0px;
+    }
+
+    .capas{
+        height: 250px;
+    }
+
+    #capaM{
+        height: 400px;
+    }
+}
